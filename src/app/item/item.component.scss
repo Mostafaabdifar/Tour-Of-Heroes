@@ -1,0 +1,16 @@
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section >div{
+  padding: 20px;
+  margin: 10px;
+  background-color: #369;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+section >div:hover{
+  background-color:darkgrey;
+}
